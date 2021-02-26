@@ -1,5 +1,5 @@
 export class HelloWorld {
-    run(): string {
-        return 'Hello World!';
-    }
+  run(): string {
+    return 'Hello World!';
+  }
 }

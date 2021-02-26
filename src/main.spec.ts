@@ -1,13 +1,13 @@
-import { Main } from './main';
+import {Main } from './main';
 
 describe('Main', () => {
-    let sut: Main;
+  let sut: Main;
 
-    beforeEach(() => {
-        sut = new Main();
-    });
+  beforeEach(() => {
+    sut = new Main();
+  });
 
-    it('should instantiate', () => {
-        expect(sut).toBeTruthy();
-    });
+  it('should instantiate', () => {
+    expect(sut).toBeTruthy();
+  });
 });
