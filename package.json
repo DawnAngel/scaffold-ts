@@ -1,0 +1,20 @@
+{
+    "name": "ts-scaffold",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "main": "node build/main.js",
+        "test": "jest"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/jest": "^26.0.20",
+        "@types/node": "^14.14.25",
+        "jest": "^26.6.3",
+        "ts-jest": "^26.5.0",
+        "typescript": "^4.1.3"
+    }
+}
